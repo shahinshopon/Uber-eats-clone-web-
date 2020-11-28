@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* header style starts here */
+.container{
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin: auto;
+    display: flex;
+}
+.searchBar{
+    margin-left: auto;
+    align-items: center;
+}
+.currentDetails,.searchBar{
+  display: flex;
+  padding-left: 5rem;
+}
+.header-option{
+    padding-left: 2rem;
+    /* padding-bottom: 3rem; */
+}
+/* header style ends here */
+
+/* order-option style starts here */
+.options-btn{
+    background: #ddd;
+    font-size: 1rem;
+    margin-right: 10px;
+    margin-top: 1rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 25px;
+    border: 0;
+}
+.selected{
+    background: black;
+    color: white;
+}
+/* order-option style ends here */
+
+/* listing style starts here */
+.list-header{
+    display: flex;
+    align-items: center;
+   
+    
+}
+.header-title-one{
+   padding-right: 580px;
+}
+.header-title-two{
+    padding-right: 650px;
+}
+.title-text{
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+.header-viewoption{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+.viewAll{
+    color: green;
+    padding-right: 15px;
+}
+.arrow{
+    height: 30px;
+    width: 30px;
+    background: gray;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    opacity: 0.2; 
+    transition: 0.5s;   
+}
+.dark{
+    opacity: 0.6;
+}
+.arrow:hover{
+    opacity: 0.6;
+}
+
+/* listing image-part style starts here */
+
+.listings-grid{
+ padding:0 2.6rem ;
+ display: flex;
+
+}
+.listing-grid-elements{
+    width: 33%;
+    margin-top: 2rem;
+    
+}
+
+.image{
+    height: 240;
+    overflow: hidden;
+}
+img{
+    /* height: 100%; */
+    width: 100%;
+    object-fit: cover;
+}
+.text{
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.ratings{
+    height: 30px;
+    width: 30px;
+    background: rgb(226, 218, 218);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    color:black;
+    font-size: 0.7rem;
+}
+.text-lower{
+    padding-top:0.5rem;
+    font-size: 0.6rem;
+}
+
+/* listing image-part style ends here */
+
+/* listing style ends here */
+
+
+
+
